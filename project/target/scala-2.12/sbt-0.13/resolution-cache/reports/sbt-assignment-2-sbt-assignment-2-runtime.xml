@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="ivy-report.xsl"?>
+<ivy-report version="1.0">
+	<info
+		organisation="sbt-assignment-2"
+		module="sbt-assignment-2"
+		revision="1.0"
+		extra-scalaVersion="2.12"
+		extra-sbtVersion="0.13"
+		conf="runtime"
+		confs="compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, sources, docs, pom, scala-tool"
+		date="20200127233330"/>
+	<dependencies>
+		<module organisation="org.scalastyle" name="scalastyle-sbt-plugin">
+			<revision name="1.0.0" error="not found" extra-scalaVersion="2.12" extra-sbtVersion="0.13" downloaded="false" searched="false" conf="default(compile)" position="-1">
+				<caller organisation="sbt-assignment-2" name="sbt-assignment-2" conf="compile, runtime" rev="1.0.0" rev-constraint-default="1.0.0" rev-constraint-dynamic="1.0.0" callerrev="1.0" extra-scalaVersion="2.12" extra-sbtVersion="0.13"/>
+				<artifacts>
+				</artifacts>
+			</revision>
+		</module>
+	</dependencies>
+</ivy-report>
